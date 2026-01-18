@@ -7,11 +7,12 @@ import re
 import os
 
 # ========= CONFIG =========
-BOT_TOKEN = os.getenv("BOT_TOKEN")  # Railway env variable
+BOT_TOKEN = os.getenv("8336768468:AAHBGSbIisH4J9Ly6HONS6olfEUqaHMAuS4")  # Railway env variable
+updater = Updater("PASTE_YOUR_BOT_TOKEN_HERE", use_context=True)
 
 ALLOWED_USERS = [
-    123456789,   # <-- PUT YOUR TELEGRAM USER ID
-    987654321    # <-- OPTIONAL
+    528232976,   # <-- PUT YOUR TELEGRAM USER ID
+    679232825    # <-- OPTIONAL
 ]
 
 PHOTO_ID = "AgACAgUAAxkBAAIBxxxxxxx"  # <-- YOUR TELEGRAM FILE_ID
